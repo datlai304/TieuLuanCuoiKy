@@ -6,10 +6,10 @@ public class mainTestDrive {
     public static void main(String[] args) 
     {
         Scanner input = new Scanner(System.in);
-        DanhSachQuanLy qlhh = new DanhSachQuanLy(); // 20 Du lieu hang hoa co san
-        DuLieuHangHoa dlhh = new DuLieuHangHoa(); // Tiep nhan 20 du lieu hang hoa
+        DanhSachQuanLy qlhh = new DanhSachQuanLy(); 
+        DuLieuHangHoa dlhh = new DuLieuHangHoa(); // 20 Du lieu hang hoa co san
         MenuSmall menu = new MenuSmall();
-        qlhh = dlhh.danhSach();
+        qlhh = dlhh.danhSach(); // Tiep nhan 20 du lieu hang hoa
         int luaChon = 0;
 
         do {
